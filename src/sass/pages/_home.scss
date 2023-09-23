@@ -1,16 +1,24 @@
-/* home */
-@use "../abstracts/variables" as var;
-@use "../base/typography" as type;
-
-body {
-  font-family: type.$font;
-  background-color: var.$bg-very-light;
-  width: min(100% - 2rem, 60ch);
-  margin-inline: auto;
-  margin-block: 4rem;
+body{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20pt;
+  text-align: left;
+  background-color: lightpink;
 }
 
-h1 {
-  color: var.$primary-color;
-  text-align: center;
+header{
+  font-size: 20px;
+  border: 2px solid palevioletred;
+}
+  p {
+    width: 40em;
+    height: 10em;
+    padding: 10em;
+    text-align: left;
+  }
+
+img {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
